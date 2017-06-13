@@ -94,7 +94,7 @@ header{
 
 }
 
-#bodyimage{
+/*#bodyimage{
 	float: left;
 	margin: 5px;
 	padding:5px;
@@ -122,8 +122,8 @@ header{
 #Rutgers{
 	width: 50px;
 	height: 50px;
-	float: left;
-}
+	float: left;*/
+/*}*/
 
 footer{
 	clear: both;
@@ -141,8 +141,8 @@ footer{
 @media screen and (max-width: 980px){
 
 	#connectbox{
-	/*background: #ffffff;*/
-	background-color: red;
+	background: #ffffff;
+	
 	float: right;
 	width: 20%;
 	margin: 5%;
@@ -171,13 +171,17 @@ footer{
 
 }
 
+#txt{
+	width: 90%;
+}
+
 }
 
 @media  screen and (max-width: 768px) {
 
 		#connectbox{
-	/*background: #ffffff;*/
-	background-color: blue;
+	background: #ffffff;
+	
 	clear: both;
 	float: left;
 	width: 90%;
@@ -207,8 +211,8 @@ footer{
 @media screen and (max-width: 640px) {
 
 		#connectbox{
-	/*background: #ffffff;*/
-	background-color: green;
+	background: #ffffff;
+	
 	float: right;
 	width: 90%;
 	margin: 5%;
